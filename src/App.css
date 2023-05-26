@@ -1,4 +1,127 @@
 .App {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+ justify-content: center; 
+ align-items: center;
+ flex-direction: column;
+}
+
+.Menu,.Quiz,.EndScreen{
+ width: 500px;
+ height: 500px;
+ margin: 60px 0px;
+ border-radius: 10px;
+ background-color: lightseagreen;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+
+.Menu button ,.Quiz button{
+ width: 178px;
+ height: 45px;
+ margin: 5px;
+ border: none;
+ border-radius: 5px; 
+ font-size: 20px;
+ cursor: pointer;
+}
+
+.Menu,.Quiz
+{
+  color: white;
+}
+
+.options {
+ width: 100%;
+  display: flex; 
+  justify-content: center;
+  flex-direction: column; 
+  align-items: center;
+}
+
+.options {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 280px;
+}
+
+.options input[type="radio"] {
+
+  /* Increase the size of radio options */
+  /* transform: scale(1.5); */
+  margin-right: 10px; 
+  /* Adjust the margin between radio option and label */
+  margin: 20px 20px;
+
+}
+
+
+/* Custom radio button checked state */
+input[type="radio"]:checked {
+  background-color: #000;
+  
+
+}
+
+.options input[type="text"] {
+  /* Adjust the input box margin */
+  margin: 90px 0;
+}
+
+.options select {
+  /* Increase the margin of the dropdown list */
+  margin: 50px 40px; /* Adjust the top and bottom margin */
+  
+}
+
+.options input[type="checkbox"] {
+  /* Increase the margin of checkboxes */
+  margin-right: 10px; /* Adjust the right margin */
+  margin-bottom: 30px; /* Adjust the bottom margin */
+
+  
+}
+.options input[type="file"] {
+  /* Increase the margin of checkboxes */
+  margin-right: 10px; /* Adjust the right margin */
+  margin-bottom: 50px; /* Adjust the bottom margin */
+  
+}
+
+h1 {
+  /* Increase the margin of questions */
+  margin-bottom: 60px; /* Adjust the bottom margin */
+}
+.options label {
+  /* Increase the font size of options in radios and checkboxes */
+  font-size: 20px; /* Adjust the font size */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .App {
   text-align: center;
 }
 
@@ -39,4 +162,4 @@
 
 .blank{
   color:red
-}
+} */
